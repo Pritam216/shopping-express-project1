@@ -1,0 +1,936 @@
+body{
+     margin:0px;
+     padding:0px
+
+}
+
+#navbar{
+        background-color:black;
+        height:70px;
+        width:100%;
+        display:flex;
+        align-items:center;
+        position:fixed;
+
+}
+
+#nav-logo{
+      height:70px;
+      width:70px;
+      margin-left:0px;
+}
+
+#logo{
+      background-image:url("https://images.vexels.com/media/users/3/132103/isolated/preview/2b512b5ece5d914e68950bfdbf73b481-shopping-cart-circle-icon-by-vexels.png");
+      background-size:cover;
+      height:70px;
+      width:100%;
+}
+
+#company{
+      height:70px;
+      width:100px;
+      margin-left:0px;
+}
+
+#nav-company:hover{
+      border: 2px solid white;
+      border-radius:5px;
+
+}
+
+#name1{
+      color:rgb(245,133,22);
+      font-size:30px;
+      font-style:arial-black;
+}
+
+#name2{
+      color:white;
+      font-style:comic sans;
+      font-size:20px;
+}
+
+#location{
+      
+      color:white;
+      margin-left:20px;
+}
+
+#location:hover{
+      border: 2px solid white;
+      border-radius:5px;
+
+}
+
+#del{
+      height:70px;
+      width:90px;
+      color:white;
+      padding-left:10px;
+      margin:0px;
+}
+
+#del:hover{
+      border: 2px solid white;
+      border-radius:5px;
+
+}
+
+#deliver{
+      margin:0px;
+      padding-top:17px;
+      color:rgb(173,168,153)
+}
+
+#country{
+      color:white;
+      margin:0px;
+      font-weight:900;
+      text-decoration:none;
+}
+
+#select{
+      border-radius:10px;
+      display:flex;
+      padding:0px;
+      margin:0px;
+      border:none;
+      width:660px;
+}
+
+#selc{
+      width:40px;
+      height:35px;
+      border-radius:4px;
+      border-top-left-radius:4px;
+      border-bottom-left-radius:4px
+}
+
+#sarch{
+      background-color:rgb(245,133,22);
+      height:36px;
+      border-top-right-radius:4px;
+      border-bottom-right-radius:4px;
+}
+
+#text{
+      width:600px;
+      height:35px
+}
+
+#language{
+      height:20px;
+      width:50px;
+      margin-left:30px;
+      display:flex;
+      align-item:center;
+      
+}
+
+#language:hover{
+      border: 2px solid white;
+      border-radius:5px;
+
+}
+
+#select2{
+      display:flex;
+      align-item:center;
+      width:36px;
+      color:black;
+      background-color:rgb(161,165,166);
+      border-radius:5px;
+
+}
+
+#icon1{
+      height:70px;
+      width:40px;
+      margin-left:15px;
+      padding:0px;
+      display:flex;
+      align-item:center;
+}
+
+#icon1:hover{
+      border: 2px solid white;
+      border-radius:5px;
+
+}
+
+#home1{
+      color:white;
+      height:20px;
+      width:20px;
+      padding-left:10px;
+      padding-top:25px;
+      display:flex;
+      align-item:center;
+      
+}
+
+#signin{
+      height:70px;
+      width:50px;
+      margin-left:8px;
+      
+}
+
+#signin:hover{
+      border: 2px solid white;
+      border-radius:5px;
+
+}
+
+#sign{
+      color:white;
+      font-size:15px;
+      font-weight:800;
+      display:flex;
+      align-item:center;
+      text-decoration:none;
+      padding-top:26px;
+
+}
+
+#contactus{
+
+      height:70px;
+      width:80px;
+      margin-left:8px;
+
+}
+
+#contactus:hover{
+      border: 2px solid white;
+      border-radius:5px;
+
+}
+
+#contact{
+      color:white;
+      font-size:15px;
+      font-weight:800;
+      display:flex;
+      align-item:center;
+      text-decoration:none;
+      padding-top:26px;
+
+}
+
+#login{
+
+      height:70px;
+      width:45px;
+      margin-left:8px;
+
+}
+
+#login:hover{
+      border: 2px solid white;
+      border-radius:5px;
+
+}
+
+#log{
+      color:white;
+      font-size:15px;
+      font-weight:800;
+      display:flex;
+      align-item:center;
+      text-decoration:none;
+      padding-top:26px;
+}
+
+#deliveryaddress{
+
+      height:70px;
+      width:120px;
+      margin-left:10px;
+}
+
+#deliveryaddress:hover{
+      border: 2px solid white;
+      border-radius:5px;
+
+}
+
+#delivery{
+      color:white;
+      font-size:15px;
+      font-weight:800;
+      display:flex;
+      align-item:center;
+      text-decoration:none;
+      padding-top:26px;
+}
+
+#mycart{
+      height:70px;
+      width:80px;
+      margin-left:10px;
+      margin-left:10px;
+
+}
+
+#mycart:hover{
+      border: 2px solid white;
+      border-radius:5px;
+
+}
+
+#cart{
+      
+      background-image:url("https://clipground.com/images/amazon-cart-png-3.png");
+      background-size:cover;
+      height:70px;
+      width:100%;
+}
+
+#navbar2{
+      height:70px;
+      width:800px;
+      padding-top:100px;
+
+}
+
+#design{
+
+      display:flex;
+      height:500px;
+      width:500px;
+}
+
+
+#boysfashion1{
+      margin-left:50px;
+      height:500px;
+      width:1000px;
+      border:2px solid black;
+      border-radius:10px;
+
+
+}
+
+#mens{
+      color:black;
+      font-size:50px;
+      font-weight:900;
+      margin:0px;
+      height:70px;
+      width:100%;
+      margin-left:50px;
+      text-decoration:black solid underline;
+
+}
+
+#discount{
+
+      height:500px;
+      width:500px;
+      margin-left:90px;
+      border-top:2px solid black;
+
+}
+
+#maindiv{
+
+      display:flex;
+
+}
+
+#div1:hover{
+
+      border: 3px solid rgb(0,0,0);
+
+}
+
+#div2:hover{
+
+      border: 3px solid rgb(0,0,0);
+
+}
+
+#div3:hover{
+
+      border: 3px solid rgb(0,0,0);
+
+}
+
+#div4:hover{
+
+      border: 3px solid rgb(0,0,0);
+
+}
+
+#div5:hover{
+
+      border: 3px solid rgb(194,193,190);
+
+}
+
+#div1{
+
+      height:550px;
+      width:300px;
+      margin-left:50px;
+      margin-top:100px;
+      border:2px solid rgb(194,193,190);  
+      border-radius:20px;    
+
+}
+
+#div11{
+      height:330px;
+      width:300px;
+      background-image:url("https://cdn.shopify.com/s/files/1/0162/2116/files/Simple_shirt_pants_outfit_ideas_for_men_9.jpg?v=1530541205");
+      background-size:cover;
+      border-radius:20px;
+ 
+
+}
+
+#div12{
+
+      height:170px;
+      width:300px;
+      text-align:center;
+      margin:0px;      
+
+}
+
+#fontdiv12{
+
+      font-size:20px;
+      margin:7px;
+
+}
+
+#div2{
+
+      height:550px;
+      width:300px;
+      margin-left:20px;
+      margin-top:100px;
+      border:2px solid rgb(194,193,190);  
+      border-radius:20px;    
+
+}
+
+
+#div21{
+      height:330px;
+      width:300px;
+      background-image:url("https://www.dhresource.com/0x0s/f2-albu-g5-M00-66-45-rBVaI1hnuXeAaqBJAAKOsOmcOgM690.jpg/new-mens-designer-t-shirt-long-sleeve-v-neck.jpg");
+      background-size:cover;
+      border-radius:20px;
+ 
+
+}
+
+#div22{
+
+      height:170px;
+      width:300px;
+      text-align:center;
+      margin:0px;      
+
+}
+
+#div3{
+
+      height:550px;
+      width:300px;
+      margin-left:20px;
+      margin-top:100px;
+      border:2px solid rgb(194,193,190);  
+      border-radius:20px;    
+
+}
+
+
+#div31{
+      height:330px;
+      width:300px;
+      background-image:url("https://i.pinimg.com/736x/5a/55/ff/5a55ff129ab6e81aea3802ce2703cd61.jpg");
+      background-size:cover;
+      border-radius:20px;
+ 
+
+}
+
+#div32{
+
+      height:170px;
+      width:300px;
+      text-align:center;
+      margin:0px;      
+
+}
+
+#div23{
+
+     text-align:center;
+     margin:0px; 
+     margin-top:35px;
+     font-size:20px;
+     text-decoration:none;
+     font-weight:800; 
+
+}
+
+#div4{
+
+      height:550px;
+      width:300px;
+      margin-left:20px;
+      margin-top:100px;
+      border:2px solid rgb(194,193,190);  
+      border-radius:20px;    
+
+}
+
+
+#div41{
+      height:330px;
+      width:300px;
+      background-image:url("https://cdn.shopify.com/s/files/1/0162/2116/files/How_to_wear_colourful_blazer_for_men_blazer_outfits_street_style_mens_fashion_6.jpg?v=1541313974");
+      background-size:cover;
+      border-radius:20px;
+ 
+
+}
+
+#div42{
+
+      height:170px;
+      width:300px;
+      text-align:center;
+      margin:0px;      
+
+}
+
+#div5{
+
+      height:50px;
+      width:50px;
+      border:3px solid rgb(6,6,46);
+      border-radius:50%;
+      margin-top:325px;
+      margin-left:50px;
+      display:flex;
+      align-items:center;
+
+}
+
+
+#div51{
+
+      height:50px;
+      width:50px;
+      color:rgb(6,6,46);
+      padding-left:16px;
+      padding-top:30px;
+
+
+}
+
+#mainlogo{
+
+      display:flex;
+      width:1500px;
+
+}
+
+#levis{
+
+      height:250px;
+      width:250px;
+      margin-top:50px;
+      margin-left:50px;
+
+}
+
+#levislogo{
+
+      height:200px;
+      width:200px;
+      border: 3px solid rgb(162,164,166);
+      border-radius:50%;
+      transition:all 1s ease-in-out 0.0001s;
+      
+
+}
+
+#levislogo:hover{
+
+      border:5px solid black;
+
+}
+
+#logo1{
+
+      height:200px;
+      width:200px;
+      background-image:url("https://static.wixstatic.com/media/68c8dc_4a24910770c74ab6b042bbc122debe76.gif");
+      background-size:cover;
+      border-radius:50%;
+
+}
+
+#levisname{
+
+      height:50px;
+      width:200px;
+      display:flex;
+      align-items:center;
+      
+      
+}
+
+#logoname1{
+
+      height:50px;
+      width:200px;
+      font-weight:700;
+      font-size:20px;
+      padding-left:70px;
+      padding-top:25px;
+}
+
+#raymond{
+
+      height:250px;
+      width:250px;
+      margin-top:50px;
+      margin-left:0px;
+
+}
+
+#raymondlogo{
+
+      height:200px;
+      width:200px;
+      border: 3px solid rgb(162,164,166);
+      border-radius:50%;
+      transition:all 1s ease-in-out 0.0001s;
+      
+
+}
+
+#raymondlogo:hover{
+
+      border:5px solid black;
+
+}
+
+#logo2{
+
+      height:200px;
+      width:200px;
+      background-image:url("https://clipground.com/images/raymond-logo-clipart-2.png");
+      background-size:cover;
+      border-radius:50%;
+
+}
+
+#raymondname{
+
+      height:50px;
+      width:200px;
+      display:flex;
+      align-items:center;
+      
+      
+}
+
+#logoname2{
+
+      height:50px;
+      width:200px;
+      font-weight:700;
+      font-size:20px;
+      padding-left:48px;
+      padding-top:25px;
+}
+
+#petterengland{
+
+      height:250px;
+      width:250px;
+      margin-top:50px;
+      margin-left:0px;
+
+}
+
+#petterenglandlogo{
+
+      height:200px;
+      width:200px;
+      border: 3px solid rgb(162,164,166);
+      border-radius:50%;
+      transition:all 1s ease-in-out 0.0001s;
+      
+
+}
+
+#petterenglandlogo:hover{
+
+      border:5px solid black;
+
+}
+
+#logo3{
+
+      height:200px;
+      width:200px;
+      background-image:url("https://hindubabynames.info/downloads/wp-content/themes/hbn_download/download/clothing-and-accessories-companies/peter-england-logo.png");
+      background-size:cover;
+      border-radius:50%;
+
+}
+
+#petterenglandname{
+
+      height:50px;
+      width:200px;
+      display:flex;
+      align-items:center;
+      
+      
+}
+
+#logoname3{
+
+      height:50px;
+      width:200px;
+      font-weight:700;
+      font-size:20px;
+      padding-left:10px;
+      padding-top:25px;
+}
+
+#puma{
+
+      height:250px;
+      width:250px;
+      margin-top:50px;
+      margin-left:0px;
+
+}
+
+#pumalogo{
+
+      height:200px;
+      width:200px;
+      border: 3px solid rgb(162,164,166);
+      border-radius:50%;
+      transition:all 1s ease-in-out 0.0001s;
+      
+
+}
+
+#pumalogo:hover{
+
+      border:5px solid black;
+
+}
+
+#logo4{
+
+      height:200px;
+      width:200px;
+      background-image:url("https://i8.amplience.net/i/jpl/logo-puma");
+      background-size:cover;
+      border-radius:50%;
+
+}
+
+#pumaname{
+
+      height:50px;
+      width:200px;
+      display:flex;
+      align-items:center;
+      
+      
+}
+
+#logoname4{
+
+      height:50px;
+      width:200px;
+      font-weight:700;
+      font-size:20px;
+      padding-left:75px;
+      padding-top:25px;
+}
+
+#adidas{
+
+      height:250px;
+      width:250px;
+      margin-top:50px;
+      margin-left:0px;
+
+}
+
+#adidaslogo{
+
+      height:200px;
+      width:200px;
+      border: 3px solid rgb(162,164,166);
+      border-radius:50%;
+      transition:all 1s ease-in-out 0.0001s;
+      
+
+}
+
+#adidaslogo:hover{
+
+      border:5px solid black;
+
+}
+
+#logo5{
+
+      height:200px;
+      width:200px;
+      background-image:url("https://cdn131.picsart.com/287766080061211.png?r1024x1024");
+      background-size:cover;
+      border-radius:50%;
+
+}
+
+#adidasname{
+
+      height:50px;
+      width:200px;
+      display:flex;
+      align-items:center;
+      
+      
+}
+
+#logoname5{
+
+      height:50px;
+      width:200px;
+      font-weight:700;
+      font-size:20px;
+      padding-left:65px;
+      padding-top:25px;
+}
+
+#allensolly{
+
+      height:250px;
+      width:250px;
+      margin-top:50px;
+      margin-left:0px;
+
+}
+
+#allensollylogo{
+
+      height:200px;
+      width:200px;
+      border: 3px solid rgb(162,164,166);
+      border-radius:50%;
+      transition:all 1s ease-in-out 0.0001s;
+      
+
+}
+
+#allensollylogo:hover{
+
+      border:5px solid black;
+
+}
+
+#logo6{
+
+      height:200px;
+      width:200px;
+      background-image:url("https://brandlogos.net/wp-content/uploads/2022/05/allen_solly-logo_brandlogos.net_0bqec.png");
+      background-size:cover;
+      border-radius:50%;
+
+}
+
+#allensollyname{
+
+      height:50px;
+      width:200px;
+      display:flex;
+      align-items:center;
+      
+      
+}
+
+#logoname6{
+
+      height:50px;
+      width:200px;
+      font-weight:700;
+      font-size:20px;
+      padding-left:65px;
+      padding-top:25px;
+}
+
+#div6{
+
+      height:50px;
+      width:50px;
+      margin-top:125px;
+      margin-left:10px;
+      display:flex;
+      align-items:center;
+
+}
+
+#div61{
+
+      height:50px;
+      width:50px;
+      color:rgb(6,6,46);
+      padding-left:16px;
+      padding-top:30px;
+
+
+}
+
+#popular{
+
+      height:50px;
+      width:1500px;
+      display:flex;
+
+}
+
+#brands{
+
+      height:50px;
+      width:1500px;
+      text-align:center;
+      color:black;
+      text-decoration:black solid underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
